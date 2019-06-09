@@ -1,16 +1,17 @@
+צרו מערך בגודל 10, ובעזרת לולאה הכניסו את הערכים 1-10 למערך
+
 using System;
 					
 public class Program
 {
 	public static void Main()
 	{
-		 int[] Numbers = new int[10];
-		
-		for ( int i=0; i <= 10; i ++)
-		{
-			Numbers[i] = int.Parse(Console.ReadLine());
-		}
-		        Console.WriteLine(Numbers);
+		 int [] arr = new int [10];
+    for (int i = 1; i < arr.Length; ++i) 
+    { 
+        arr[i] = i+1;
+        Console.WriteLine(i); 
 
+    } 
 	}
 }
